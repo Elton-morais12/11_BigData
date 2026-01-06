@@ -1,6 +1,6 @@
 # Bibliotecas
 import random
-
+import os
 n = random.randint(1, 10)
 m = random.randint(1, 10)
 # print(n, m)
@@ -15,4 +15,5 @@ m = random.randint(1, 10)
 # ------------------------------------
 # Gerar números aleatórios dentro de uma lista
 lst_numeros = [random.randint(1, 10) for num in range(5)]
+os.system('cls')
 print(lst_numeros)
